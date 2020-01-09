@@ -4,9 +4,19 @@ $c-letter: #311313;
 
 body {
     background-color: $c-body;
+    box-sizing: border-box;
 }
 
 .form-container {
     max-width: 40rem;
     margin: 0 auto;
+}
+ 
+input, select {
+    width: 100%;
+}
+
+.inline-container {
+    display: flex;
+    flex-flow: row wrap;
 }
