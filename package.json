@@ -1,0 +1,26 @@
+{
+  "name": "56-form-exercise-bernd-fede",
+  "version": "1.0.0",
+  "description": "Form-Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "dart-sass --watch scss/style.scss style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi-fighters/56-form-exercise-bernd-fede.git"
+  },
+  "keywords": [
+    "form"
+  ],
+  "author": "Federico Ientile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wi-fighters/56-form-exercise-bernd-fede/issues"
+  },
+  "homepage": "https://github.com/wi-fighters/56-form-exercise-bernd-fede#readme",
+  "devDependencies": {
+    "dart-sass": "^1.24.3"
+  }
+}
