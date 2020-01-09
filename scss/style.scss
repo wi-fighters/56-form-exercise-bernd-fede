@@ -1,5 +1,12 @@
 $c-body: #F9F5F0;
+$c-address: #F2EAD3;
+$c-letter: #311313;
 
 body {
     background-color: $c-body;
+}
+
+.form-container {
+    max-width: 40rem;
+    margin: 0 auto;
 }
