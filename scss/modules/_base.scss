@@ -1,0 +1,13 @@
+@use "../variables/colors" as *;
+
+
+@mixin for-html {
+    font-family: Arial, sans-serif;
+    background-color: $c-body;
+    color: $c-letter;
+    box-sizing: border-box;
+}
+
+html {
+    @include for-html;
+};
